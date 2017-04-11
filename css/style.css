@@ -1,0 +1,103 @@
+/*geral*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600');
+
+body {
+	background: url('../img/bg-pattern.png') repeat top left;
+	font-size: 12pt;
+}
+
+section {
+	background: #0e033c url('../img/section-bg.png') no-repeat center center;
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.75);
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 600;
+	color: #1a1251;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.clear:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+li {
+	list-style: none;
+}
+
+/*header*/
+
+header {
+	max-width: 1600px;
+	width: 100%;
+	margin: 65px auto 0;
+	display: block;
+}
+
+header .logo {
+	float: left;
+}
+
+header .logo img {
+	margin-right: 5px;
+}
+
+header .logo p {
+	font-weight: 600;
+	color: #1a1251;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header .logo p, header .logo img {
+	float: left;
+}
+
+header .links {
+	float: right;
+	margin-top: 10px;
+}
+
+header a:first-child {
+	margin-right: 75px;
+}
+
+/*section*/
+
+section {
+	max-width: 1600px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+article {
+	height: 900px;
+	margin: 0 320px;
+	overflow: hidden;
+}
+
+article img {
+	margin: 190px auto 0;
+	display: block;
+}
+
+article p {
+	color: #fbffe5;
+	font-size: 1.4em;
+	font-weight: 300;
+	line-height: 2;
+	margin-top: 90px;
+	text-align: center;
+}
