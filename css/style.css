@@ -26,9 +26,9 @@ a {
 }
 
 .clear:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 li {
@@ -40,7 +40,7 @@ li {
 header {
 	max-width: 1600px;
 	width: 100%;
-	margin: 65px auto 0;
+	margin: 40px auto 0;
 	display: block;
 }
 
@@ -100,4 +100,49 @@ article p {
 	line-height: 2;
 	margin-top: 90px;
 	text-align: center;
+}
+
+/*footer*/
+
+footer {
+	max-width: 1600px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+footer ul {
+	padding: 0;
+}
+
+footer .social {
+	float: left;
+}
+
+footer .social li {
+	float: left;
+}
+
+footer .social a {
+	width: 29px;
+	height: 29px;
+	display: block;
+	margin-right: 15px;
+}
+
+footer .social a.behance {background: url('../img/social-sprite.png') no-repeat 0 center; }
+footer .social a.facebook {background: url('../img/social-sprite.png') no-repeat -29px center; }
+footer .social a.twitter {background: url('../img/social-sprite.png') no-repeat -58px center; }
+footer .social a.linkedin {background: url('../img/social-sprite.png') no-repeat -87px center; }
+
+footer .contato {
+	float: right;
+}
+
+footer .contato li {
+	font-weight: 600;
+	color: #1a1251;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
 }
